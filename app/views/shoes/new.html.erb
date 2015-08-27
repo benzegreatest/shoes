@@ -1,0 +1,7 @@
+<h1>Enter Your Shoe Details</h1>
+<%= simple_form_for @soccershoes do |f| %>
+	<%= f.input :Name %>
+	<%= f.input :Brand %>
+	<br />
+	<%= f.submit 'Create'%>
+<% end %>
